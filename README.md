@@ -11,6 +11,7 @@
     pip3 install -r requirements.txt
 
 После успешной установки, надо будет запустить сервер:
+   
     uvicorn app.main:app --reload
 
 Ее вручную можно проверить переходя по ссылке: http://localhost:8000/docs.
